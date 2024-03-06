@@ -30,15 +30,20 @@ input[type=text],
     box-sizing: border-box;
 }
 
-input[type=button] {
+button[type=signin] {
     width: 100%;
     background-color: red;
     color: white;
     padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
+    margin: 8px 
+    display: inline-block;
     border-radius: 4px;
     cursor: pointer;
+}
+
+.td {
+    color: white;
+    font-size: 25px;
 }
 
 footer {
